@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d9dbdf;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 124px;
+    background: white;
+    
+    
+}
+header a {
+    font-size: 32px;
+    color: #3563E9;
+    margin-left: 60px;
+}
+svg {
+    background: gray;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 236px;
+    margin-right: 32px;
+}
+
+header>input{
+    margin-right: 408px;
+    height: 44px;
+    width: 492px;
+    border-radius: 70px;
+    border:solid 1px #C3D4E9;
+    
+}
+
+.sfirstcard {
+    height: 360px;
+    width: 640px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 24px;
+    margin-top: 32px;
+    
+}
+
+.sfirstcard button{
+    color: white;
+    height: 44px;
+    width: 120px;
+    border-radius: 4px;
+    border: none;
+}
+.sfirstcardbuttonleft{
+    background: #3563E9;
+}
+.sfirstcardbuttonright{
+    background:  #54A6FF;
+}
+.sfirstcard:first-child {
+    background-image:url(Ads\ 1.svg);
+    margin-left: 64px;
+    
+}
+
+.sfirstcard:last-child {
+    background-image:url(Ads\ 2.svg);
+    margin-right: 64px;
+}
+ 
+
+.twocards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sfirstcard h2:first-child {
+    margin-top: 24px;
+}
+
+.sfirstcard button {
+    margin-top: 10px;
+}
+
+
+
+.pickdrop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.pickup, .dropoff {
+ height: 132px;
+ width: 582px;
+ background: white;
+ border-radius: 10px;
+}
+.pickup {
+    margin-left: 64px;
+}
+
+.dropoff{
+    margin-right: 64px;
+}
+.switch{
+    height: 60px;
+    width: 60px;
+    background: #3563E9;
+    border-radius: 10px;
+}
+
+.ssecondflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    margin-bottom: 20px;
+}
+.ssecondflex h4,
+.ssecondflex a{
+    display: block;
+    padding:0 20px;
+}
+.ssecondgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    gap: 32px;
+    
+    
+}
+
+.ssecondcars{
+    height: 388px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.ssecond{
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 36px;
+}
+.sthird{
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 36px;
+    
+}
+.sthirdgrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid-template-rows: repeat(2, 1fr );
+    gap: 32px;
+}
+
+.sthirdcars{
+    height: 388px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+.sthird__btn-text-container{
+    display: flex;
+    
+    margin-top: 64px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sthird__show-more-btn{
+    
+    width: 156px;
+    height: 44px;
+    border: none;
+    
+    
+    
+}
+.sthird__car{
+    padding-left: 40%;
+}
+
+.fsectionfirst{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px  60px;
+    border-bottom: 1px solid rgba(19, 19, 19, .16) ;
+    
+}
+
+.finfo {
+    display: flex;
+}
+
+.fabout,  .fcommunity, .fsocials {
+    display: flex;
+    flex-direction: column;
+}
+
+.fsectionsecond  {
+    margin: 36px 60px;
+}
+
+.fsocials{
+    padding-bottom: 36px;
+}
